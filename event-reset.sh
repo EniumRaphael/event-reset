@@ -8,3 +8,6 @@ rm -rf $HOME/.mozilla
 echo "reset des subjects"
 rm -rf $HOME/Desktop/*
 rm -rf $HOME/*.txt
+
+echo "suppression des fichiers opt"
+find ~ -name "*.odt" -delete
